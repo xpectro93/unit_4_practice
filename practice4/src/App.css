@@ -1,0 +1,80 @@
+html {
+  background-color: #E9EBEE
+}
+
+.App {
+  width:100%;
+  text-align: center;
+  margin:auto;
+  background-color: #E9EBEE;
+}
+
+.posts {
+  width:90%;
+  border-radius: 7px;
+  margin:auto;
+  padding:10px;
+
+}
+.comments {
+  text-align: left;
+  background-color: silver;
+  width:90%;
+  border-radius: 7px;
+  margin:auto;
+  padding:10px;
+}
+.post {
+
+  background-color: lightblue;
+  width:90%;
+  border-radius: 7px;
+  margin:auto;
+  padding:10px;
+  margin-top: 15px;
+}
+
+.actualPost{
+  text-align:left;
+  width:90%;
+  margin:auto;
+  background-color: #c7e1e8;
+  padding:15px;
+  border-radius: 7px;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #4060B8;
+  font-weight: bold;
+  font-size: 20px;
+  padding:10px;
+
+
+}
+#nav {
+  color:white
+}
+
+#nav:hover  {
+  color:gray;
+
+}
+a:visited {
+  text-decoration: none;
+  color:black;
+
+  }
+
+.listLink {
+  list-style: none
+}
+#todoItem {
+  list-style: none
+}
+#linktest {
+  color: #4060B8
+}
